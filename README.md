@@ -3,7 +3,7 @@
 
 A Retrieval-Augmented Generation (RAG)-based system for intelligently summarizing neurology research papers. This project combines vector similarity search with large language model (LLM)-powered summarization to help researchers and students navigate dense scientific literature with ease.
 
----
+
 
 ## Project Overview
 
@@ -12,7 +12,6 @@ Unlike conventional keyword-based search engines, this assistant retrieves seman
 
 
 
----
 
 ## Technologies and frameworks used
 
@@ -26,7 +25,7 @@ Unlike conventional keyword-based search engines, this assistant retrieves seman
 - **Frontend** – HTML,CSS,Js
 - **LLM**- Llama 3.8b
 
----
+
 
 ## System Overview
 
@@ -60,8 +59,6 @@ This architecture brings together best practices in vector search, NLP, and LLM-
 
 <img width="1920" height="1080" alt="Sequence_Diagram" src="https://github.com/user-attachments/assets/3507819c-1420-4c4c-a052-b90edc171ba8" />
 
----
-
 
 
 
@@ -72,6 +69,7 @@ This architecture brings together best practices in vector search, NLP, and LLM-
 -  **Domain-optimized (Neurology)** – Tailored for summarizing biomedical and clinical papers
 -  **High-speed FAISS Indexing** – Handles large-scale retrieval tasks with low latency
 -  **Easily Scalable** – Add more papers or switch domains with minimal effort
+-  
 
 ##  Real-World Applications
 
