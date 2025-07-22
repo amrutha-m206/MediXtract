@@ -56,6 +56,8 @@ At its core, this project implements the **Retrieval-Augmented Generation (RAG)*
 
 This architecture brings together best practices in vector search, NLP, and LLM-based reasoning to create a powerful domain-specific retrieval tool.
 
+**Sequence Diagram**
+
 <img width="1920" height="1080" alt="Sequence_Diagram" src="https://github.com/user-attachments/assets/3507819c-1420-4c4c-a052-b90edc171ba8" />
 
 ---
