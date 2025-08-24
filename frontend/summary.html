@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summary - {{ title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+        h1 {
+            color: #1f3d8f;
+        }
+        .summary-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #1f3d8f;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+        }
+        a:hover {
+            background-color: #163173;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .summary-text {
+            white-space: pre-line; 
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="summary-container">
+        <h1>{{ title }}</h1>
+        <h2>📄 Summary</h2>
+        <div class="summary-text">
+          
+            {{ summary }}
+        </div>
+        <a href="/">← Back to Home</a>
+    </div>
+</body>
+</html>
